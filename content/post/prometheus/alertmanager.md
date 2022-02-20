@@ -143,8 +143,7 @@ groups:
 
 如下图所示，用户可以通过Prometheus的Web界面中的Alerts菜单查看当前Prometheus下的所有告警规则，以及当前所处的活动状态：
 
-<div align="center"><p><img src="../images/Prometheus/alert/status.png"></p>
-<p>告警活动状态</p></div>
+![告警活动状态](https://github.com/mengbin92/blog/blob/main/static/image/Prometheus/alert/status.png)
 
 同时对于已经pending或者firing的告警，Prometheus也会将他们存储到时间序列ALERTS{}中。
 
