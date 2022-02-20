@@ -11,7 +11,7 @@ draft: false
 
 告警能力在Prometheus中是独立出来的部分。如下图所示，通过在Prometheus中定义AlertRule（告警规则），Prometheus会周期性的对告警规则进行计算，如果满足告警触发条件就会向Alertmanager发送告警信息。
 
-![Prometheus告警处理](/image/Prometheus/alert/alert.png)  
+![Prometheus告警处理](https://github.com/mengbin92/blog/blob/main/static/image/Prometheus/alert/alert.png)  
 
 Prometheus的告警规则一般有以下几部分：
 
@@ -28,7 +28,7 @@ Alertmanager还提供了静默和告警抑制机制来对告警通知行为进�
 
 ## Alertmanager特性
 
-![Alertmanager特性](/image/Prometheus/alert/alert.png)
+![Alertmanager特性](https://github.com/mengbin92/blog/blob/main/static/image/Prometheus/alert/Alertmanager%E7%89%B9%E6%80%A7.png)
 
 ### 分组
 
